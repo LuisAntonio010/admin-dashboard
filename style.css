@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+body{
+    display: flex;
+    min-height: 100vh;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.sidebar{
+    background-color: #084c61;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 10%;
+    gap: 2rem;
+    color: white;
+} 
+
+.sidebar-title{
+    margin-top: 2rem;
+}
+
+.nav-one, .nav-two{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.nav-two{
+    margin-top: 3rem;
+}
+
+.nav-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    gap: 1rem;
+}
+
+
+.mainDashboard{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 15%;
+}
+
+.mainContainer{
+    background-color: grey;
+    display: flex;
+    flex: 1;
+}
+
+.projectsContainer{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+
+    border: solid rgb(0, 0, 0);
+    gap: 20px; 
+    height: auto;
+    flex: 1;
+}
+
+.projectItem{
+    border: solid rgb(0, 26, 255);
+}
+
+.rightContainer{
+    display: flex;
+    flex-direction: column;
+    border: solid rgb(229, 255, 0);
+    flex-basis: 20%;
+}
+
+.rightboxes{
+    display: grid;
+    border: solid red;
+    grid-template-rows: 1fr;
+    flex: 1;
+}
+
+.rightBottom, .rightTop  {
+    display: flex;
+    flex-direction: column;
+    flex: 1;    
+}
+
