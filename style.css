@@ -28,7 +28,9 @@ ul {
 } 
 
 .sidebar-title{
+    margin: 0.75rem;
     margin-top: 2rem;
+    
 }
 
 .nav-one, .nav-two{
@@ -36,6 +38,7 @@ ul {
     flex-direction: column;
     gap: 1.5rem;
     justify-content: center;
+    margin: 0.75rem;
 }
 
 .nav-two{
@@ -61,10 +64,50 @@ ul {
     display: flex;
     flex-direction: column;
     flex-basis: 15%;
+    border-bottom: solid #757271;
 }
 
+.headerTop, .headerBottom{
+    margin: 0.75rem;
+}
+
+.headerTop{
+    display: flex;
+    flex-basis: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-right{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+
+.headerBottom{
+    display: flex;
+    flex-basis: 50%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom-left{
+    flex: 1;
+}
+
+.bottom-right{
+    display: flex;
+}
+
+.bottom-right > ul{
+    display: flex;
+    gap: 2rem;
+}
+
+
 .mainContainer{
-    background-color: grey;
+    background-color: #e7e5e4;
     display: flex;
     flex: 1;
 }
@@ -80,7 +123,6 @@ ul {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
 
-    border: solid rgb(0, 0, 0);
     gap: 20px; 
     height: auto;
     flex: 1;
@@ -88,18 +130,22 @@ ul {
 
 .projectItem{
     border: solid rgb(0, 26, 255);
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+}
+
+.container-title{
+    margin: 0.75rem;
 }
 
 .rightContainer{
     display: flex;
     flex-direction: column;
-    border: solid rgb(229, 255, 0);
     flex-basis: 20%;
 }
 
 .rightboxes{
     display: grid;
-    border: solid red;
     grid-template-rows: 1fr;
     flex: 1;
 }
